@@ -82,7 +82,7 @@ Then navigate go to your project root folder (ADEL-Framework-master for example)
 
     reload -b
 
-Your project should open in a new tab on a local server, and everytime you sav
+Your project should open in a new tab on a local server, and everytime you save any file in the project, it will automatically refresh the changes in the browser, VERY USEFUL.
 ### Using the Framework
 
 Start by creating multiple pages that we are going to use for our app.
@@ -280,6 +280,3 @@ Feel free to reuse and edit all the ressources provided.
   
 
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzMjc0MTgwXX0=
--->

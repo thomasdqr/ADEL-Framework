@@ -168,7 +168,7 @@ You can try adding more pages and play with parameters to make the app your own.
 
 Final setup.js
 
-    ```javascript
+
     // Declare our app using ADEL.js framework
     var app = new ADEL();
     
@@ -185,7 +185,7 @@ Final setup.js
 	
 	// Initialise our pages
 	app.navController.Init(["page1.html", "page2.html"]);
-	```
+
 
 ### Additional functions
 You can also use manual navigation at anytime using the GoToPage(pageIndex) function.

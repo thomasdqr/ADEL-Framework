@@ -110,9 +110,9 @@ As you can see, an empty bottom bar has appeared. Now we need to define our diff
 To add buttons to the bar, just add adel-navbtn elements to the adel-navbar like so 
 ```html
     <adel-navbar>
-		<adel-navbtn goToPage="0"></adel-navbtn>
-		<adel-navbtn goToPage="1"></adel-navbtn>
-	</adel-navbar>
+	<adel-navbtn goToPage="0"></adel-navbtn>
+	<adel-navbtn goToPage="1"></adel-navbtn>
+    </adel-navbar>
 ```
 The goToPage attribute define wich page is related to the button.
 Here :
@@ -127,13 +127,16 @@ To style our buttons, we can add whatever html component we want, div / label / 
 For this example let's use buttons
 ```html
     <adel-navbar>
-		<adel-navbtn goToPage="0">
-			<button adel-navicon>Page 1</button>
-		</adel-navbtn>
-		<adel-navbtn goToPage="1">
-			<button adel-navicon>Page 2</button>
-		</adel-navbtn>
-	</adel-navbar>
+	    
+	<adel-navbtn goToPage="0">
+		<button adel-navicon>Page 1</button>
+	</adel-navbtn>
+	    
+	<adel-navbtn goToPage="1">
+		<button adel-navicon>Page 2</button>
+	</adel-navbtn>
+	    
+    </adel-navbar>
 ```
 As you can note, we added the attribute **adel-navIcon** to the button. This way we can add interactive style to these elements.
 
@@ -158,11 +161,11 @@ To do this add the following parameters to our app
 ```javascript
     // Define navbar icons highlight style 
     app.params.navBarActiveStyle = {
-	    "background-color": "dodgerblue",
+	"background-color": "dodgerblue",
     };
     app.params.navBarInactiveStyle = {
-		"background-color": "grey",
-	};
+	"background-color": "grey",
+    };
 ```
 Refresh the app, and now the button navicon highlight in blue when active.
 
@@ -179,14 +182,14 @@ Final setup.js
     
     // Define navbar icons highlight style
     app.params.navBarActiveStyle = {
-		"background-color": "dodgerblue",
-	};
-	app.params.navBarInactiveStyle = {
-		"background-color": "grey",	
-	};
+	"background-color": "dodgerblue",
+    };
+    app.params.navBarInactiveStyle = {
+	"background-color": "grey",	
+    };
 	
-	// Initialise our pages
-	app.navController.Init(["page1.html", "page2.html"]);
+    // Initialise our pages
+    app.navController.Init(["page1.html", "page2.html"]);
 ```
 
 ### Additional functions
@@ -196,11 +199,11 @@ Here an example using Jquery
 ```javascript
     // Example of manual navigation
     $("#home_btn").click(function() {
-		app.navController.GoToPage(0);
-	});
-	$("#about_btn").click(function() {
-		app.navController.GoToPage(1);
-	});
+	app.navController.GoToPage(0);
+    });
+    $("#about_btn").click(function() {
+	app.navController.GoToPage(1);
+    });
 ```
 You can also choose to Hide or Show the navigation bar at any moment using functions.
 ```javascript
@@ -241,18 +244,18 @@ Object containing all the css rules for the style of inactive navigation bar but
 ```javascript
       // Navigaton bar inactive style (by default : empty)
       app.params.navBarInactiveStyle = {
-    		"color": "black",
-    		"font-size": "10px",
-    	}
+    	    "color": "black",
+    	    "font-size": "10px",
+      }
  ```
 - **navBarActiveStyle**
 Object containing all the css rules for the style of active navigation bar button
 ```javascript
       // Navigaton bar active style (by default : empty)
       app.params.navBarActiveStyle = {
-    		"color": "red",
-    		"font-size": "15px",
-    	}
+    	    "color": "red",
+    	    "font-size": "15px",
+      }
 ```
 ## Author
 Made by Thomas De Queiros ([website](https://www.thomasdequeiros.fr))

@@ -53,11 +53,12 @@ The way the library work is simple. The index.html is divided in two parts. The 
 
 After extracting the library, open the folder in your favourite IDE.
 Load index.html file. You can see the two parts we talked about here :
-
+```html
     <body>
 	<adel-main></adel-main>
 	<adel-navbar></adel-navbar>
 	</body>
+```
 Leave the adel-main empty as it will be completely handled by the framework.
 We will see how to use the navigation bar div in the next parts.
 

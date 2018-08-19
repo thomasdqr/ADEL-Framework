@@ -73,7 +73,12 @@ Finally you can locate the laoding of ADEL in the bottom of the file as well as 
 ### Environment Setup
 Before going any further, I **HIGHLY RECOMMEND** to use the reload package from npm if you are developping out of cordova in your local browser.
 
-To use it
+To use it, install the package 
+
+```
+npm install reload
+```
+Then go to your project root folder (ADEL-Framework
 
 ### Using the Framework
 
@@ -273,5 +278,5 @@ Feel free to reuse and edit all the ressources provided.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODIyNTgyMl19
+eyJoaXN0b3J5IjpbNDc2MDk0NTU4XX0=
 -->

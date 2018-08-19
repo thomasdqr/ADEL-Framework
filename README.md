@@ -78,8 +78,11 @@ To use it, install the package
 ```
 npm install reload
 ```
-Then go to your project root folder (ADEL-Framework
+Then navigate go to your project root folder (ADEL-Framework-master for example) and use the command 
 
+    reload -b
+
+Your project should open in a new tab on a local server, and everytime you sav
 ### Using the Framework
 
 Start by creating multiple pages that we are going to use for our app.
@@ -278,5 +281,5 @@ Feel free to reuse and edit all the ressources provided.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2MDk0NTU4XX0=
+eyJoaXN0b3J5IjpbNTUzMjc0MTgwXX0=
 -->

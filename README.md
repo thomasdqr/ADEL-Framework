@@ -268,6 +268,3 @@ Feel free to reuse and edit all the ressources provided.
   
 
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjE1MzkwN119
--->

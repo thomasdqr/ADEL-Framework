@@ -70,6 +70,8 @@ Finally you can locate the laoding of ADEL in the bottom of the file as well as 
     <script src="library/adel.js"></script>
     <script src="setup.js"></script>
 ```
+### Environment Setup
+Before going any further, I HIGHLY RECOMMEND t
 
 ### Using the Framework
 
@@ -268,3 +270,6 @@ Feel free to reuse and edit all the ressources provided.
   
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTExMTE3NjExMV19
+-->

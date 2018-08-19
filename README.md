@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADEL Framework</title>
   <link rel="stylesheet" href="https://stackedit.io/style.css" />
 </head>
 
@@ -17,7 +18,7 @@
 <p>If you are familiar to regular web development but not confortable with Angular, View or React development, the <strong>ADEL Framework</strong> is made for you.</p>
 <ul>
 <li>
-<p><strong>Easy to set up</strong> just <a href="www.google.fr">download</a> the library, extract the zip and you’re good to go.</p>
+<p><strong>Easy to set up</strong> just <a href="https://github.com/thomasdqr/ADEL-Framework/archive/master.zip">download</a> the library, extract the zip and you’re good to go.</p>
 </li>
 <li>
 <p>Can be <strong>integrated to an existing project</strong> in just few steps.</p>
@@ -73,7 +74,7 @@ Let’s jump to the <strong>setup.js</strong> file to start using ADEL.</p>
 <pre><code>// Declare our app using ADEL.js framework
 var app = new ADEL();
 </code></pre>
-<p>Our newly created app has a lot of differents parameters that you can learn about in the <a href="www.google.fr">App parameters</a> section.</p>
+<p>Our newly created app has a lot of differents parameters that you can learn about in the <a href="https://github.com/thomasdqr/ADEL-Framework#app-parameters">App parameters</a> section.</p>
 <p>One of the main component of our app is the Navigation Controller, as its name stands, it will handle all the navigation between our different views.<br>
 The only thing we need to do to set it up is the following line</p>
 <pre><code>app.navController.Init(["page1.html", "page2.html");

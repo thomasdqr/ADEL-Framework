@@ -258,6 +258,10 @@ Made by Thomas De Queiros ([website](https://www.thomasdequeiros.fr))
 
 Feel free to reuse and edit all the ressources provided.
 
+```javascript
+console.log("hello world");
+```
+
 
   
 

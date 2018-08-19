@@ -71,7 +71,9 @@ Finally you can locate the laoding of ADEL in the bottom of the file as well as 
     <script src="setup.js"></script>
 ```
 ### Environment Setup
-Before going any further, I HIGHLY RECOMMEND t
+Before going any further, I **HIGHLY RECOMMEND** to use the reload package from npm if you are developping out of cordova in your local browser.
+
+To use it
 
 ### Using the Framework
 
@@ -271,5 +273,5 @@ Feel free to reuse and edit all the ressources provided.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTE3NjExMV19
+eyJoaXN0b3J5IjpbLTY0ODIyNTgyMl19
 -->
